@@ -1,0 +1,93 @@
+.App {
+  padding: 10px;
+}
+
+.AddClockForm {
+  width: 100%;
+}
+
+.AddClockForm-inputs-wrapper {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.AddClockForm-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 30%;
+}
+
+.AddClockForm-label {
+  display: block;
+  box-sizing: border-box;
+}
+
+.AddClockForm-input {
+  display: block;
+  margin-right: 10px;
+  box-sizing: border-box;
+  height: 50px;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.AddClockForm-submit {
+  width: 100px;
+  height: 50px;
+  align-self: end;
+  border: solid 1px;
+  border-radius: 10px;
+}
+
+.AddClockForm-submit:active {
+  border: solid 2px;
+  background-color: darkgray;
+}
+
+.Clockes-body {
+  width: calc(60% + 100px);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.Clock-widget {
+  width: 20%;
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.Clock-widget:nth-child(2n) {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Clock-widget h1 {
+  margin: 0 0 1rem 0;
+}
+
+.Clock-button {
+  position: absolute;
+  top: -12.5px;
+  right: -12.5px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  line-height: 0;
+  font-size: 12px;
+}
+
+.button-remove:hover {
+  color: red;
+}
